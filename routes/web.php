@@ -10,19 +10,22 @@ Route::get('/', function () {
 Route::get('/sign-up', function () {
     return view('signup');
 });
-Route::get('/dashboard', function () {
-    return view('user/dashboardUser');
-});
-Route::get('/profile', function () {
-    return view('user/profile');
-});
-Route::get('/class', function () {
-    return view('user/kelas_saya');
-});
 
+route::middleware('auth')->group(function(){
+    Route::get('/dashboard', function () {
+        return view('user/dashboardUser');
+    });
+    Route::get('/profile', function () {
+        return view('user/profile');
+    });
+    Route::get('/kelas', function () {
+        return view('user/kelas_saya');
+    });
+});
 
 
 // logincontroller
 route::get('form-login', [LoginController::class, 'register'])->name('form-daftar');
-Route::get('form-masuk', [LoginController::class, 'index'])->name('form-masuk');
+Route::get('login', [LoginController::class, 'index'])->name('login');
 route::post('masuk', [LoginController::class, 'autentikasi'])->name('form-autentikasi');
+Route::get('logout', [LoginController::class, 'logout'])->name('logout');

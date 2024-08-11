@@ -6,7 +6,7 @@
         </button>
         <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
             <a href=".">
-                <img src="./static/logo.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image">
+                <img src="/img/jobco fix.png" width="110" height="110" alt="JobCo" class="navbar-brand-image">
             </a>
         </h1>
         <div class="navbar-nav flex-row order-md-last">
@@ -35,13 +35,22 @@
                 </a>
             </div>
             <div class="nav-item dropdown">
-                <a href="/profile" class="nav-link d-flex lh-1 text-reset p-0">
+                <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
+                    aria-label="Open user menu">
                     <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
                     <div class="d-none d-xl-block ps-2">
                         <div>Paweł Kuna</div>
                         <div class="mt-1 small text-secondary">UI Designer</div>
                     </div>
                 </a>
+                <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <a href="#" class="dropdown-item">Status</a>
+                    <a href="./profile.html" class="dropdown-item">Profile</a>
+                    <a href="#" class="dropdown-item">Feedback</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="./settings.html" class="dropdown-item">Settings</a>
+                    <a href="/logout" class="dropdown-item">Logout</a>
+                </div>
             </div>
         </div>
     </div>
@@ -344,33 +353,18 @@
                             </span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./dashboard">
-                            <span
-                                class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 11l3 3l8 -8" />
-                                    <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
-                                </svg>
-                            </span>
-                            <span class="nav-link-title">
-                                Mentoring
-                            </span>
-                        </a>
-                    </li>
                     <li class="nav-item {{ Request::is('profile') ? 'active' : '' }}">
                         <a class="nav-link" href="/profile">
                             <span
                                 class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-user-circle">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 11l3 3l8 -8" />
-                                    <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                                    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
                                 </svg>
                             </span>
                             <span class="nav-link-title">
@@ -378,16 +372,17 @@
                             </span>
                         </a>
                     </li>
-                    <li class="nav-item {{ Request::is('class') ? 'active' : '' }}">
-                        <a class="nav-link" href="./class">
+                    <li class="nav-item {{ Request::is('kelas') ? 'active' : '' }}">
+                        <a class="nav-link" href="/kelas">
                             <span
                                 class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-bookmarks">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 11l3 3l8 -8" />
-                                    <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+                                    <path d="M15 10v11l-5 -3l-5 3v-11a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3z" />
+                                    <path d="M11 3h5a3 3 0 0 1 3 3v11" />
                                 </svg>
                             </span>
                             <span class="nav-link-title">
@@ -399,12 +394,15 @@
                         <a class="nav-link" href="./dashboard">
                             <span
                                 class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-file-cv">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 11l3 3l8 -8" />
-                                    <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                                    <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
+                                    <path d="M13 11l1.5 6l1.5 -6" />
                                 </svg>
                             </span>
                             <span class="nav-link-title">

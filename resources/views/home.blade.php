@@ -45,7 +45,7 @@
                 </button>
                 <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
                     <a href=".">
-                        <img src="/img/jobco.png" width="110" height="32" alt="JobCo"
+                        <img src="/img/jobco fix.png" width="100" height="100" alt="JobCo"
                             class="navbar-brand-image">
                     </a>
                 </h1>
@@ -182,7 +182,7 @@
                         </span>
                     </div>
                     <div class="nav-item dropdown px-2">
-                        <a href="{{ route('form-masuk') }}" class="btn d-none d-sm-inline-block text-light"
+                        <a href="{{ route('login') }}" class="btn d-none d-sm-inline-block text-light"
                             style="background-color: #625D9E; border-radius: 9px">
                             <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                             {{-- <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg> --}}
@@ -216,7 +216,7 @@
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                                <a class="nav-link " href="#navbar-base" data-bs-toggle="dropdown"
                                     data-bs-auto-close="outside" role="button" aria-expanded="false">
                                     <span
                                         class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/package -->

@@ -27,16 +27,25 @@ class LoginController extends Controller
         if (Auth::attempt(['email' => $email, 'password' => $password])) {
             $user = Auth::user();
             if ($user->role == 1) {
-                return view('dashboardUser');
+                return view('dashboardAdmin');
             } else if ($user->role == 2) {
                 return view('dashboardMentor');
             } else if ($user->role == 3) {
-                return view('dashboardAdmin');
+                return redirect('/dashboard');
             }
         }
 
-        return back()->with('error', 'Maaf! Username / Password salah cok');
+        return back()->with('error', 'Maaf! Username / Password salah');
     }
 
-    public function logout() {}
+    public function logout(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    }
 }

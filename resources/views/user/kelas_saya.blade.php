@@ -54,43 +54,6 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-auto ms-auto">
-                            <div class="btn-list">
-                                <a href="#" class="btn btn-icon" aria-label="Button">
-                                    <!-- Download SVG icon from http://tabler-icons.io/i/dots -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                                        <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="btn btn-icon" aria-label="Button">
-                                    <!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M8 9h8" />
-                                        <path d="M8 13h6" />
-                                        <path
-                                            d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="btn btn-primary">
-                                    <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M5 12l5 5l10 -10" />
-                                    </svg>
-                                    Following
-                                </a>
-                            </div>
-                        </div> --}}
                 </div>
             </div>
         </div>
@@ -104,44 +67,40 @@
                             <li class="timeline-event">
                                 <div class="timeline-event-icon">
                                     <!-- Download SVG icon from http://tabler-icons.io/i/briefcase -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-school">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-                                        <path d="M12 12l0 .01" />
-                                        <path d="M3 13a20 20 0 0 0 18 0" />
+                                        <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                                        <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
                                     </svg>
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
-                                        <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        {{-- <div class="text-secondary float-end">2 hrs ago</div> --}}
+                                        <h4>Resume yang menarik HRD</h4>
+                                        <p class="text-secondary">Berakhir dalam 2/10/2024</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-event">
                                 <div class="timeline-event-icon">
                                     <!-- Download SVG icon from http://tabler-icons.io/i/briefcase -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-school">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-                                        <path d="M12 12l0 .01" />
-                                        <path d="M3 13a20 20 0 0 0 18 0" />
+                                        <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                                        <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
                                     </svg>
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
-                                        <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        {{-- <div class="text-secondary float-end">2 hrs ago</div> --}}
+                                        <h4>Personal Branding</h4>
+                                        <p class="text-secondary">Berakhir dalam 2/10/2024</p>
                                     </div>
                                 </div>
                             </li>
@@ -151,44 +110,43 @@
                             <li class="timeline-event">
                                 <div class="timeline-event-icon">
                                     <!-- Download SVG icon from http://tabler-icons.io/i/briefcase -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-hipchat">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                         <path
-                                            d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-                                        <path d="M12 12l0 .01" />
-                                        <path d="M3 13a20 20 0 0 0 18 0" />
+                                            d="M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 3 -3.49 3 -5.789c0 -4.286 -4.03 -7.764 -9 -7.764c-4.97 0 -9 3.478 -9 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z" />
+                                        <path d="M7.5 13.5c2.5 2.5 6.5 2.5 9 0" />
                                     </svg>
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
                                         <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        <h4>"Yusuf Ardi Donga" replied you in Engineering Topic</h4>
+                                        <p class="text-secondary">Congratulations! Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Accusantium aliq...</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-event">
                                 <div class="timeline-event-icon">
                                     <!-- Download SVG icon from http://tabler-icons.io/i/briefcase -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-hipchat">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                         <path
-                                            d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-                                        <path d="M12 12l0 .01" />
-                                        <path d="M3 13a20 20 0 0 0 18 0" />
+                                            d="M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 3 -3.49 3 -5.789c0 -4.286 -4.03 -7.764 -9 -7.764c-4.97 0 -9 3.478 -9 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z" />
+                                        <path d="M7.5 13.5c2.5 2.5 6.5 2.5 9 0" />
                                     </svg>
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
-                                        <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        <div class="text-secondary float-end">4 hrs ago</div>
+                                        <h4>"Kuma Hari Mahendra" pinned your reply as Helping</h4>
+                                        {{-- <p class="text-secondary">Congratulations!</p> --}}
                                     </div>
                                 </div>
                             </li>
@@ -211,9 +169,9 @@
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
-                                        <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        {{-- <div class="text-secondary float-end">2 hrs ago</div> --}}
+                                        <h4>Manajemen Waktu Efektif</h4>
+                                        <p class="text-secondary">Sesi selanjutnya dibuka pada tanggal 31/12/2024</p>
                                     </div>
                                 </div>
                             </li>
@@ -233,9 +191,9 @@
                                 </div>
                                 <div class="card timeline-event-card">
                                     <div class="card-body">
-                                        <div class="text-secondary float-end">2 hrs ago</div>
-                                        <h4>+3 New Products were added!</h4>
-                                        <p class="text-secondary">Congratulations!</p>
+                                        {{-- <div class="text-secondary float-end">2 hrs ago</div> --}}
+                                        <h4>Karir Sukses di Media Sosial</h4>
+                                        <p class="text-secondary">Sesi selanjutnya dibuka pada tanggal 4/5/2024</p>
                                     </div>
                                 </div>
                             </li>
